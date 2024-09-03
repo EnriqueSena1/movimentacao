@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(43, 2, 2);
+    margin: auto;
+    padding: 5px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(75, 80, 76);
+    background-color: #e6d5d5;
+    
+} 
+.depoislogo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.contatos a{
+    padding: 15px;
+}
+.div2{
+    color: aliceblue;
+    display: flex;
+    
+}
