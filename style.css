@@ -22,11 +22,23 @@ body{
     height: 30px;
 }
 
-.contatos a{
+
+a{
     padding: 15px;
 }
-.div2{
+.div3{
     color: aliceblue;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
+}
+.primeira_ima{
+    margin: 3px;
+    padding: 1px;
+    
+    
+}
+.div2 p{
+    color: azure;
 }
