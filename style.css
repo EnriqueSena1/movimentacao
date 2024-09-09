@@ -3,6 +3,10 @@ body{
     margin: auto;
     padding: 5px;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .div1{
     display: flex;
     align-items: center;
@@ -41,4 +45,14 @@ a{
 }
 .div2 p{
     color: azure;
+}
+p{
+    color: azure;
+}
+.navlateral {
+    background-color: rgb(205, 155, 122);
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 0;
 }
