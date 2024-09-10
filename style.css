@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(43, 2, 2);
+    background-color: rgb(4, 101, 131);
     margin: auto;
     padding: 5px;
 }
@@ -7,14 +7,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.div1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(75, 80, 76);
-    background-color: #e6d5d5;
-    
-} 
+
 .depoislogo{
     display: flex;
     align-items: center;
@@ -31,15 +24,16 @@ a{
     padding: 15px;
 }
 .div3{
-    color: aliceblue;
+    color: rgb(112, 182, 243);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 0 0 0 200px;
     
 }
 .primeira_ima{
-    margin: 3px;
-    padding: 1px;
+    margin: 1px;
+    padding: 0px;
     
     
 }
@@ -50,9 +44,28 @@ p{
     color: azure;
 }
 .navlateral {
-    background-color: rgb(205, 155, 122);
+    background-color: rgb(48, 73, 119);
     height: 100%;
     width: 200px;
     position: fixed;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+.botaohome{
+    display: flex;
+    color: azure;
+    margin: 29.5%;
+    padding: 0%;
+
+}
+.espaco{
+    display: flex;
+}
+.div4{
+    color: rgb(112, 182, 243);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 0 0 200px;
 }
